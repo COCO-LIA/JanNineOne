@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2837803E2698D0096BBB67B9 /* Pods_JanNineOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B43C24FDC7E6A0F3215DF7A /* Pods_JanNineOne.framework */; };
+		8482BBB025A99DEC00F44433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482BBAF25A99DEC00F44433 /* AppDelegate.swift */; };
+		8482BBB225A99DEC00F44433 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482BBB125A99DEC00F44433 /* SceneDelegate.swift */; };
+		8482BBB425A99DEC00F44433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482BBB325A99DEC00F44433 /* ViewController.swift */; };
+		8482BBB725A99DEC00F44433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482BBB525A99DEC00F44433 /* Main.storyboard */; };
+		8482BBB925A99DEE00F44433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482BBB825A99DEE00F44433 /* Assets.xcassets */; };
+		8482BBBC25A99DEE00F44433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482BBBA25A99DEE00F44433 /* LaunchScreen.storyboard */; };
+		8482BBC525A99EDB00F44433 /* Cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482BBC425A99EDB00F44433 /* Cell1.swift */; };
+		8482BBD025A9A4B600F44433 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482BBCF25A9A4B600F44433 /* Article.swift */; };
+		8482BBD725A9AF8400F44433 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482BBD625A9AF8400F44433 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B43C24FDC7E6A0F3215DF7A /* Pods_JanNineOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JanNineOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482BBAC25A99DEC00F44433 /* JanNineOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JanNineOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482BBAF25A99DEC00F44433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8482BBB125A99DEC00F44433 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8482BBB325A99DEC00F44433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8482BBB625A99DEC00F44433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8482BBB825A99DEE00F44433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8482BBBB25A99DEE00F44433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8482BBBD25A99DEE00F44433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8482BBC425A99EDB00F44433 /* Cell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell1.swift; sourceTree = "<group>"; };
+		8482BBCF25A9A4B600F44433 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		8482BBD625A9AF8400F44433 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8DA5EF791F6E04ADCF95DFEA /* Pods-JanNineOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanNineOne.release.xcconfig"; path = "Target Support Files/Pods-JanNineOne/Pods-JanNineOne.release.xcconfig"; sourceTree = "<group>"; };
+		D206CF72DC448F4531B6C0A6 /* Pods-JanNineOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanNineOne.debug.xcconfig"; path = "Target Support Files/Pods-JanNineOne/Pods-JanNineOne.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8482BBA925A99DEC00F44433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2837803E2698D0096BBB67B9 /* Pods_JanNineOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8482BBA325A99DEC00F44433 = {
+			isa = PBXGroup;
+			children = (
+				8482BBAE25A99DEC00F44433 /* JanNineOne */,
+				8482BBAD25A99DEC00F44433 /* Products */,
+				F89BA95AE3C3EC385C8FDBAE /* Pods */,
+				FCD700C1C87D3AD464D91D7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8482BBAD25A99DEC00F44433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8482BBAC25A99DEC00F44433 /* JanNineOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8482BBAE25A99DEC00F44433 /* JanNineOne */ = {
+			isa = PBXGroup;
+			children = (
+				8482BBAF25A99DEC00F44433 /* AppDelegate.swift */,
+				8482BBB125A99DEC00F44433 /* SceneDelegate.swift */,
+				8482BBB325A99DEC00F44433 /* ViewController.swift */,
+				8482BBCF25A9A4B600F44433 /* Article.swift */,
+				8482BBD625A9AF8400F44433 /* DetailViewController.swift */,
+				8482BBB525A99DEC00F44433 /* Main.storyboard */,
+				8482BBC425A99EDB00F44433 /* Cell1.swift */,
+				8482BBB825A99DEE00F44433 /* Assets.xcassets */,
+				8482BBBA25A99DEE00F44433 /* LaunchScreen.storyboard */,
+				8482BBBD25A99DEE00F44433 /* Info.plist */,
+			);
+			path = JanNineOne;
+			sourceTree = "<group>";
+		};
+		F89BA95AE3C3EC385C8FDBAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D206CF72DC448F4531B6C0A6 /* Pods-JanNineOne.debug.xcconfig */,
+				8DA5EF791F6E04ADCF95DFEA /* Pods-JanNineOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCD700C1C87D3AD464D91D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B43C24FDC7E6A0F3215DF7A /* Pods_JanNineOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8482BBAB25A99DEC00F44433 /* JanNineOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8482BBC025A99DEE00F44433 /* Build configuration list for PBXNativeTarget "JanNineOne" */;
+			buildPhases = (
+				CFF817530545DB1E0895B0E1 /* [CP] Check Pods Manifest.lock */,
+				8482BBA825A99DEC00F44433 /* Sources */,
+				8482BBA925A99DEC00F44433 /* Frameworks */,
+				8482BBAA25A99DEC00F44433 /* Resources */,
+				A8575683A443E2958AA55944 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JanNineOne;
+			productName = JanNineOne;
+			productReference = 8482BBAC25A99DEC00F44433 /* JanNineOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8482BBA425A99DEC00F44433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8482BBAB25A99DEC00F44433 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 8482BBA725A99DEC00F44433 /* Build configuration list for PBXProject "JanNineOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8482BBA325A99DEC00F44433;
+			productRefGroup = 8482BBAD25A99DEC00F44433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8482BBAB25A99DEC00F44433 /* JanNineOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8482BBAA25A99DEC00F44433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8482BBBC25A99DEE00F44433 /* LaunchScreen.storyboard in Resources */,
+				8482BBB925A99DEE00F44433 /* Assets.xcassets in Resources */,
+				8482BBB725A99DEC00F44433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8575683A443E2958AA55944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JanNineOne/Pods-JanNineOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JanNineOne/Pods-JanNineOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JanNineOne/Pods-JanNineOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF817530545DB1E0895B0E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JanNineOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8482BBA825A99DEC00F44433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8482BBB425A99DEC00F44433 /* ViewController.swift in Sources */,
+				8482BBB025A99DEC00F44433 /* AppDelegate.swift in Sources */,
+				8482BBB225A99DEC00F44433 /* SceneDelegate.swift in Sources */,
+				8482BBD725A9AF8400F44433 /* DetailViewController.swift in Sources */,
+				8482BBC525A99EDB00F44433 /* Cell1.swift in Sources */,
+				8482BBD025A9A4B600F44433 /* Article.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8482BBB525A99DEC00F44433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8482BBB625A99DEC00F44433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8482BBBA25A99DEE00F44433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8482BBBB25A99DEE00F44433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8482BBBE25A99DEE00F44433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8482BBBF25A99DEE00F44433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8482BBC125A99DEE00F44433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D206CF72DC448F4531B6C0A6 /* Pods-JanNineOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QG4DQ62JQ;
+				INFOPLIST_FILE = JanNineOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonji.JanNineOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8482BBC225A99DEE00F44433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA5EF791F6E04ADCF95DFEA /* Pods-JanNineOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QG4DQ62JQ;
+				INFOPLIST_FILE = JanNineOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyeonji.JanNineOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8482BBA725A99DEC00F44433 /* Build configuration list for PBXProject "JanNineOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482BBBE25A99DEE00F44433 /* Debug */,
+				8482BBBF25A99DEE00F44433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8482BBC025A99DEE00F44433 /* Build configuration list for PBXNativeTarget "JanNineOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482BBC125A99DEE00F44433 /* Debug */,
+				8482BBC225A99DEE00F44433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8482BBA425A99DEC00F44433 /* Project object */;
+}
